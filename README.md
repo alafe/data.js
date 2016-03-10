@@ -3,9 +3,9 @@
 Data Sharing
 
 [![code style fecs](https://img.shields.io/badge/code%20style-fecs-brightgreen.svg)](https://github.com/ecomfe/fecs)
-[![Linux Build](https://travis-ci.org/alafe/data.js.svg?branch=master)](https://travis-ci.org/alafe/data.js)
-[![Test Coverage](https://img.shields.io/coveralls/alafe/data.js/master.svg)](https://coveralls.io/r/alafe/data.js)
-[![DevDependencies](https://img.shields.io/david/dev/alafe/data.js.svg?style=flat)](https://david-dm.org/alafe/data.js#info=devDependencies)
+[![Linux Build](https://travis-ci.org/zbfe/data.js.svg?branch=master)](https://travis-ci.org/zbfe/data.js)
+[![Test Coverage](https://img.shields.io/coveralls/zbfe/data.js/master.svg)](https://coveralls.io/r/zbfe/data.js)
+[![DevDependencies](https://img.shields.io/david/dev/zbfe/data.js.svg?style=flat)](https://david-dm.org/zbfe/data.js#info=devDependencies)
 
 只是玩玩，别当真～
 
@@ -51,7 +51,7 @@ Data Sharing
 ## Develop
 
 ```shell
-git clone https://github.com/alafe/data.js.git
+git clone https://github.com/zbfe/data.js.git
 
 cd data.js
 
