@@ -62,7 +62,7 @@ npm run hook-install
 
 ## Test
 
-> Test case by [jasmine](https://jasmine.github.io/), test environment by [karma](https://karma-runner.github.io/)
+> Test case by [jasmine](https://jasmine.github.io/), test environment by [karma](https://karma-runner.github.io/)、[phantomjs](http://phantomjs.org/)
 
 ```shell
 # 运行测试
