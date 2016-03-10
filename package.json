@@ -20,12 +20,12 @@
   "author": "xiaowu",
   "license": "MIT",
   "devDependencies": {
-    "fecs": "*",
-    "jasmine-core": "*",
-    "karma": "*",
-    "karma-coverage": "*",
-    "karma-jasmine": "*",
-    "karma-phantomjs-launcher": "*",
-    "prepush": "*"
+    "fecs": ">=0.6.3",
+    "jasmine-core": ">=2.4.1",
+    "karma": ">=0.13.22",
+    "karma-coverage": ">=0.5.5",
+    "karma-jasmine": ">=0.3.7",
+    "karma-phantomjs-launcher": ">=1.0.0",
+    "prepush": ">=3.1.8"
   }
 }
