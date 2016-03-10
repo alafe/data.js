@@ -1,0 +1,34 @@
+{
+  "name": "sf",
+  "version": "0.0.1",
+  "description": "Speed Frame",
+  "main": "index.js",
+  "scripts": {
+    "check": "fecs check src/ test/ --reporter=baidu",
+    "test": "karma start karma.conf.js",
+    "test-cov": "karma start karma.conf.cov.js",
+    "hook-install": "prepush install",
+    "hook-remove": "prepush remove",
+    "start": "npm run server",
+    "server": "http-server"
+  },
+  "prepush": [
+    "npm run check"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alafe/data.js.git"
+  },
+  "author": "xiaowu",
+  "license": "MIT",
+  "devDependencies": {
+    "fecs": "^0.6.3",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "prepush": "^3.1.8"
+  }
+}
