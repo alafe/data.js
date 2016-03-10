@@ -1,5 +1,5 @@
 {
-  "name": "sf",
+  "name": "data.js",
   "version": "0.0.1",
   "description": "Data Sharing",
   "main": "src/data.js",
@@ -20,12 +20,12 @@
   "author": "xiaowu",
   "license": "MIT",
   "devDependencies": {
-    "fecs": "^0.6.3",
-    "jasmine-core": "^2.4.1",
-    "karma": "^0.13.19",
-    "karma-coverage": "^0.5.3",
-    "karma-jasmine": "^0.3.6",
-    "karma-phantomjs-launcher": "^0.2.3",
-    "prepush": "^3.1.8"
+    "fecs": "*",
+    "jasmine-core": "*",
+    "karma": "*",
+    "karma-coverage": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "prepush": "*"
   }
 }
