@@ -2,6 +2,11 @@
 
 Data Sharing
 
+[![code style fecs](https://img.shields.io/badge/code%20style-fecs-brightgreen.svg)](https://github.com/ecomfe/fecs)
+[![Linux Build](https://travis-ci.org/alafe/data.js.svg?branch=gh-pages)](https://travis-ci.org/alafe/data.js)
+[![Test Coverage](https://img.shields.io/coveralls/alafe/data.js/gh-pages.svg)](https://coveralls.io/r/alafe/data.js)
+
+只是玩玩，别当真～
 
 ## Api
 
@@ -40,4 +45,32 @@ Data Sharing
  *
  * @return {Object}     Data
  */
+```
+
+## Develop
+
+```shell
+git clone https://github.com/alafe/data.js.git
+
+cd data.js
+
+npm install
+
+# 安装push前检查代码勾子
+npm run hook-install
+```
+
+## Test
+
+> Test case by [jasmine](https://jasmine.github.io/), test environment by [karma](https://karma-runner.github.io/)
+
+```shell
+# 运行测试
+npm run test
+
+# 运行测试覆盖率
+npm run test-cov
+
+# 运行代码检查
+npm run check
 ```
