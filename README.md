@@ -1,6 +1,6 @@
 # data.js
 
-Data Sharing
+Browser data sharing, node data cache click [@xuexb/key-cache](https://github.com/xuexb/key-cache/)
 
 [![code style fecs](https://img.shields.io/badge/code%20style-fecs-brightgreen.svg)](https://github.com/ecomfe/fecs)
 [![Linux Build](https://travis-ci.org/zbfe/data.js.svg?branch=master)](https://travis-ci.org/zbfe/data.js)
